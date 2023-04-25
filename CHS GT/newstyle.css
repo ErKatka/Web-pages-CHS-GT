@@ -1,0 +1,126 @@
+
+.container{
+    float: left;
+    width: 100%;
+}
+.col{
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+@media only screen and (min-width: 1000px) {
+    .col {
+        float: left;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .col {
+        margin: auto;
+        width: 95%;
+    }
+  }
+  .color-change{
+    color: rgb(255, 181, 70);
+  } 
+  header{
+    float: left;
+    width: 100%;
+  }
+  section{
+    float: left;
+    width: 100%;
+  }
+  footer{
+    float: left;
+    width: 100%;
+  }
+  .title{
+    margin: auto;
+    margin-top: 80px;
+    max-width: 800px;
+    font-size: 46px;
+  }
+  .title-small{
+    margin: auto;
+    margin-top: 10px;
+    max-width: 800px;
+    font-size: 32px;
+  }
+  .image-title{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    max-width:450px;
+  }
+
+  .image-one{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width:70%;
+  }
+  .link{
+    margin: auto;
+    margin-top: 10px;
+    max-width: 800px;
+    font-size: 32px;
+  }
+.button{
+    background-color: rgb(255, 181, 70); /* Green */
+    border: solid 3px purple;
+    border-radius: 30px;
+    color: white;
+    padding-top: 8px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.section{
+    background-color: rgb(255, 248, 217);
+}
+.title-section{
+    margin: auto;
+    margin-top: 10px;
+    max-width: 900px;
+    font-size: 32px;
+  }
+.text-section{
+    margin: auto;
+    margin-top: 10px;
+    max-width: 900px;
+    font-size: 18px;
+  }
+  .image-two{
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    width:70%;
+  }
+footer{
+    padding: 15px;
+    height: 100px;
+    background-color: rgb(117, 117, 117);
+    text-align: center;
+    color: white;
+}
+@media only screen and (max-width: 1000px) {
+    .image-title {
+        max-width:300px;
+    }
+    .title{
+        margin-top: 30px;
+        font-size: 32px;
+      }
+      .title-small{
+        font-size: 24px;
+      }
+      .image-two{
+        margin-top: 0px;
+        width:90%;
+      }
+  }
